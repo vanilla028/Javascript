@@ -6,3 +6,13 @@ if (num > 35){
     console.log('35보다 적습니다.')
 }
 // 35보다 적습니다.
+
+function compare(num){
+    if (num > 35){
+        console.log('35보다 많습니다.')
+    } else {
+        console.log('35보다 적습니다.')
+    }
+}
+
+compare(32); // 35보다 적습니다.
